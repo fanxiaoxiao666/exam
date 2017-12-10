@@ -1,0 +1,34 @@
+*{margin:0;padding:0}
+body{cursor:pointer}
+ #box1{width:428px;height:200px;margin:50px auto;padding:50px 100px ;border:1px solid gray;
+ border-radius: 18px ;text-align: center}
+        #box1 p{margin-bottom: 30px;font-size: 24px;}
+        .box2{padding:15px;margin:50px auto;width:598px;height:500px;border: 1px solid gray;border-radius: 18px;
+        display:none;}
+        .box2 h3{margin-bottom:40px;}
+        .title{margin-top:10px;
+            float:right;width:40px;height:20px;border: 1px solid gray;text-align: center;line-height: 20px}
+
+        .box2 p{font-size: 16px;width:500px;padding:5px;border:1px solid black ;border-radius: 10px;
+        background: gray;margin-bottom:20px;}
+        .img-left{float:left;}
+        .img-right{float:right;display: none;}
+        .box2 .bg{background:green}
+        .answer{padding:15px;margin:50px auto;width:598px;height:500px;border: 1px solid gray;border-radius: 18px;
+            display:none;text-align: center;font-size: 20px;overflow: hidden;position:relative}
+        .answer #p2{margin-top:80px;}
+
+        .answer span{width:100px;height:30px;margin-right:20px;display: inline-block;
+        margin-top:40px;}
+        .answer span:last-child{margin-right:0;}
+        .answer .correct{background: green}
+        .answer .rusult1 p.error{background: red}
+        #finish{font-size:12px;width:80px;height:20px;border: 1px solid gray;float:right}
+        .rusult1{width:300px;height:200px;padding:20px;position:absolute;display: none}
+        .rusult1 p{border: 1px solid gray;padding:5px;margin-top:10px;}
+
+        .answer #d1{left:30px;bottom:50px}
+        .answer #d2{left:150px;bottom:50px}
+        .answer #d3{left:270px;bottom:50px}
+        .answer #d4{left:300px;bottom:50px}
+  
